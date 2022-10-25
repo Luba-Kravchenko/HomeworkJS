@@ -8,6 +8,6 @@
 Примечания: Пользователь всегда вводит корректное число.*/
 
 const tempC = Number.parseInt(prompt("Введите температуру в градусах Цельсия"));  
-let tempF = (9 / 5) * tempC + 32;
+const tempF = (9 / 5) * tempC + 32;
 //tempF = Math.round(tempF * 100) /100;
-alert (`Цельсий: ${tempC}, Фаренгейт: ${tempF.toFixed(2)}`); 
+alert(`Цельсий: ${tempC}, Фаренгейт: ${tempF.toFixed(2)}`); 
