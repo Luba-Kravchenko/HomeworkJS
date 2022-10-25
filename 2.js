@@ -3,8 +3,8 @@
  Также необходимо спросить у пользователя его имя и вызвать функцию, 
  про которую ранее шла речь, передав ей полученное от пользователя имя.*/
 
- function ShowName(name) {
+ function showName(name) {
     console.log (`Привет, ${name}!`);
  }
  const username = prompt("Введите ваше имя");
- ShowName(username);
+ showName(username);

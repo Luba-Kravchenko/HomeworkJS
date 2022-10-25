@@ -7,7 +7,7 @@
 градусы Фаренгейта = (9 / 5) * градусы Цельсия + 32
 Примечания: Пользователь всегда вводит корректное число.*/
 
-const temp_c = Number.parseInt(prompt("Введите температуру в градусах Цельсия"));  
-let temp_f = (9 / 5) * temp_c + 32;
-temp_f = Math.round(temp_f * 100) /100;
-alert (`Цельсий: ${temp_c}, Фаренгейт: ${temp_f}`); 
+const tempC = Number.parseInt(prompt("Введите температуру в градусах Цельсия"));  
+let tempF = (9 / 5) * tempC + 32;
+//tempF = Math.round(tempF * 100) /100;
+alert (`Цельсий: ${tempC}, Фаренгейт: ${tempF.toFixed(2)}`); 
